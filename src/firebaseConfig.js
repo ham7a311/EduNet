@@ -11,13 +11,13 @@ import { getFunctions } from "firebase/functions";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAKyFwUpeCZbabqyWy5gnuenSBUB2eBJ6Q",
-    authDomain: "edunet-86992.firebaseapp.com",
-    projectId: "edunet-86992",
-    storageBucket: "edunet-86992.firebasestorage.app",
-    messagingSenderId: "720578463622",
-    appId: "1:720578463622:web:346e619e3c8e47d9aece07",
-    measurementId: "G-DFLV2PY7XQ"
+    apiKey: "API_KEY",
+    authDomain: "eX",
+    projectId: "X",
+    storageBucket: "X",
+    messagingSenderId: "X",
+    appId: "1SECRET",
+    measurementId: "G-X"
   };
 
 // Initialize Firebase
