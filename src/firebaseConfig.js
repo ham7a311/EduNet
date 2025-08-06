@@ -12,12 +12,12 @@ import { getFunctions } from "firebase/functions";
 
 const firebaseConfig = {
     apiKey: "API_KEY",
-    authDomain: "eX",
-    projectId: "X",
-    storageBucket: "X",
-    messagingSenderId: "X",
-    appId: "1SECRET",
-    measurementId: "G-X"
+    authDomain: "SECRET",
+    projectId: "SECRET",
+    storageBucket: "SECRET",
+    messagingSenderId: "SECRET",
+    appId: "SECRET",
+    measurementId: "SECRET"
   };
 
 // Initialize Firebase
