@@ -1,0 +1,332 @@
+{
+  "install": {
+    "install_app": "Install App",
+    "ios_install": "Install on iOS",
+    "ios_instructions": "To install EduNet on your iOS device:\n\n1. Tap the Share button (square with arrow up)\n2. Scroll down and tap 'Add to Home Screen'\n3. Tap 'Add' to confirm\n\nThis will add EduNet to your home screen for easy access!"
+  },
+  "settings": {
+    "title": "Settings",
+    "user_info": {
+      "regular_user": "Regular User",
+      "name_label": "Name",
+      "university_label": "University",
+      "language_label": "Language",
+      "english": "English",
+      "arabic": "Arabic"
+    },
+    "buttons": {
+      "edit": "Edit",
+      "logout": "Logout",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+    },
+    "modals": {
+      "edit_profile": {
+        "title": "Edit Profile",
+        "name_placeholder": "Enter your name",
+        "university_placeholder": "Enter your university"
+      },
+      "logout_confirm": {
+        "title": "Confirm Logout",
+        "message": "Are you sure you want to log out? This means you will have to sign up again in order to access the dashboard."
+      }
+    },
+    "alerts": {
+      "logout_success": "Logged out successfully.",
+      "logout_error": "Failed to log out. Please try again."
+    }
+  },
+"authentication": {
+    "welcome_back": "Welcome Back to EduNet",
+    "create_account": "Create Your EduNet Account",
+    "email_label": "Email Address",
+    "email_placeholder": "projectmayhem@fc.com",
+    "password_label": "Password",
+    "password_placeholder": "••••••••",
+    "first_name_label": "First name",
+    "first_name_placeholder": "Tyler",
+    "last_name_label": "Last name",
+    "last_name_placeholder": "Durden",
+    "sign_in": "Sign In →",
+    "sign_up": "Sign Up →",
+    "toggle_sign_up": "Don't have an account? Sign Up",
+    "toggle_sign_in": "Already have an account? Sign In",
+    "github": "GitHub",
+    "google": "Google",
+    "steps_title": "Authentication Steps",
+    "steps_description": "Follow these steps to secure your account:",
+    "step_email": "Enter your email address",
+    "step_password": "Create a strong password",
+    "step_verify": "Verify your identity",
+    "steps_footer": "Ensuring your account is properly secured helps protect your personal information and data."
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{email}}",
+    "message": "This is your dashboard. Use the sidebar to navigate."
+  },
+  "home": {
+    "welcome": "Welcome {{email}}!"
+  },
+  "navbar": {
+    "logo": "EduNet",
+    "links": {
+      "Features": "Features",
+      "Faq": "FAQ",
+      "Contact": "Contact"
+    },
+    "sign_in": "Sign In",
+    "language": "Language",
+    "languages": {
+      "english": "English",
+      "arabic": "Arabic"
+    }
+  },
+  "calendar": {
+    "title": "Calendar",
+    "subtitle": "Manage your events and schedule",
+    "select_date": "Select Date",
+    "choose_date": "Choose a date for your new event:",
+    "cancel": "Cancel",
+    "no_events": "No events scheduled for this day",
+    "create_event": "Create Event",
+    "edit_event": "Edit Event",
+    "update_event": "Update Event",
+    "add_event": "Add Event",
+    "close": "Close",
+    "events": "Events",
+    "event_title": "Event Title",
+    "event_title_placeholder": "Enter event title",
+    "time": "Time",
+    "color": "Color",
+    "location": "Location",
+    "location_placeholder": "Event location",
+    "description": "Description",
+    "description_placeholder": "Event description",
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "days": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "days_short": {
+      "sun": "S",
+      "mon": "M",
+      "tue": "T",
+      "wed": "W",
+      "thu": "T",
+      "fri": "F",
+      "sat": "S"
+    },
+    "colors": {
+      "blue": "Blue",
+      "red": "Red",
+      "emerald": "Emerald",
+      "amber": "Amber",
+      "violet": "Violet",
+      "pink": "Pink",
+      "cyan": "Cyan",
+      "lime": "Lime",
+      "orange": "Orange",
+      "slate": "Slate"
+    }
+  },
+  "sidebar": {
+    "feed": "Feed",
+    "calendar": "Calendar",
+    "chat": "Chat",
+    "settings": "Settings",
+    "chat_coming_soon": "Chat (Coming Soon)"
+  },
+  "feed": {
+    "connecting": "Connecting to Firebase...",
+    "create_first_post": "Create First Post",
+    "no_posts": "No posts yet. Be the first to post!",
+    "sort_by": "Sort by:",
+    "sort_likes": "Most Likes",
+    "sort_comments": "Most Replies",
+    "create_post": "Create Post",
+    "edit_post": "Edit Post",
+    "updating": "Updating...",
+    "post_placeholder": "What's on your mind?",
+    "file_input_label": "Max file size: 10MB. Supported: Images and videos",
+    "show_name_label": "Show name: {{name}}",
+    "show_university_label": "Show university: {{university}}",
+    "post_button": "Post",
+    "update_button": "Update",
+    "cancel_button": "Cancel",
+    "posting": "posting",
+    "deleting": "deleting",
+    "like_button": {
+      "like": "Like",
+      "unlike": "Unlike",
+      "aria_label": "{{action}} post. Current likes: {{count}}"
+    },
+    "comments_label": "Comments: {{count}}",
+    "comment_placeholder": {
+      "write": "Write a comment...",
+      "edit": "Edit your comment..."
+    },
+    "delete_post": {
+      "title": "Delete Post",
+      "message": "Are you sure you want to delete this post? This action cannot be undone.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "delete_comment": {
+      "title": "Delete Comment",
+      "message": "Are you sure you want to delete this comment? This action cannot be undone.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "file_size_exceeded": "File size must be less than 10MB",
+      "empty_post": "Please write something or upload a file!",
+      "permission_denied": "Permission denied. Check your Firebase security rules.",
+      "service_unavailable": "Service unavailable. Please try again later.",
+      "unauthenticated": "Authentication required. Please check your Firebase configuration.",
+      "connection_failed": "Connection failed: {{message}}",
+      "load_posts_failed": "Failed to load posts. Please try again.",
+      "post_failed": "Failed to create/edit post: {{message}}",
+      "like_failed": "Failed to like/unlike post: {{message}}",
+      "comment_failed": "Failed to add/edit comment: {{message}}",
+      "delete_post_failed": "Failed to delete post: {{message}}",
+      "delete_comment_failed": "Failed to delete comment: {{message}}",
+      "post_not_found": "Post not found.",
+      "comment_not_found": "Comment not found."
+    },
+    "connection_error": {
+      "title": "Connection Error",
+      "troubleshooting": "Troubleshooting steps:",
+      "check_config": "Check your Firebase configuration in firebaseConfig.js",
+      "verify_rules": "Verify Firebase security rules allow read/write access",
+      "check_project": "Ensure your Firebase project is active and billing is set up",
+      "check_connection": "Check your internet connection",
+      "retry": "Retry Connection"
+    },
+    "video_unsupported": "Your browser does not support video playback.",
+    "post_options": "Post options",
+    "comment_options": "Comment options",
+    "just_now": "Just now",
+    "edited": "(Edited)",
+    "selected_file": "Selected: {{name}}",
+    "file_size": "Size: {{size}} MB"
+  },
+  "chat": {
+    "title": "Ask Us Anything",
+    "history": "*Notice: chat history isn't saved*",
+    "clear_chat": "Clear Chat",
+    "placeholders": [
+      "How do I schedule my day for maximum productivity?",
+      "Who is Einstein?",
+      "How can I be consistent?",
+      "What are the best study methods?",
+      "Who created the first university?"
+    ]
+  },
+  "hero": {
+    "title_collaborative": "Collaborative",
+    "title_learning": "Learning",
+    "description": "EduNet connects students across Oman, enabling them to share homework, exchange knowledge, and access valuable academic resources — all in one interactive platform.",
+    "free": "Absolutely Free · No credit card required"
+  },
+  "features": {
+    "title": "Features",
+    "homework_sharing": {
+      "title": "Homework Sharing",
+      "description": "Easily share and access homework solutions, notes, and past papers with fellow Omani students."
+    },
+    "collaborative_problem_solving": {
+      "title": "Collaborative Problem Solving",
+      "description": "Work together with peers to solve challenging assignments and learn from different approaches."
+    },
+    "resource_exchange": {
+      "title": "Resource Exchange",
+      "description": "Find and share helpful study materials, textbooks, and online resources to support your studies."
+    },
+    "discussion_forums": {
+      "title": "Discussion Forums",
+      "description": "Engage in topic-based discussions, ask questions, and get quick answers from the student community."
+    },
+    "ai": {
+      "title": "AI",
+      "description": "Chat with our special AI to enhance studying even more."
+    },
+    "study_planning": {
+      "title": "Study Planning",
+      "description": "Organize your studies and stay on track with shared study plans, tips, and productivity techniques."
+    },
+    "file_uploads_sharing": {
+      "title": "File Uploads & Sharing",
+      "description": "Upload your notes, projects, or presentations to help others and download resources for free."
+    },
+    "community_driven_support": {
+      "title": "Community-Driven Support",
+      "description": "Get academic help, mentorship, and guidance from experienced students and peers."
+    }
+  }, 
+  "faq": {
+    "title": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What is EduNet?",
+        "answer": "EduNet is a platform for Omani students to share homework, solve academic problems together, and exchange useful study resources."
+      },
+      {
+        "question": "Is EduNet free to use?",
+        "answer": "Yes! EduNet is completely free for all Omani students. You can sign up and start sharing or accessing resources instantly."
+      },
+      {
+        "question": "Can I upload my own study materials?",
+        "answer": "Absolutely. EduNet allows you to upload your notes, past papers, and other helpful resources to support your fellow students."
+      },
+      {
+        "question": "Is EduNet only for university students?",
+        "answer": "No. EduNet is built for both school and university students in Oman who want to collaborate and learn together."
+      },
+      {
+        "question": "How do I ask for help with homework?",
+        "answer": "You can post your questions in posts section, and other students can share their comments and provide guidance."
+      }
+    ]
+  }, 
+  "footer": {
+    "logo": "EduNet",
+    "tagline": "Learning made easy.",
+    "menuItems": [
+      {
+        "title": "Quick Links",
+        "links": [
+          { "text": "Features", "url": "#features" },
+          { "text": "FAQ", "url": "#faq" },
+          { "text": "Sign In", "url": "#auth" },
+          { "text": "Contact", "url": "https://wa.me/96894990747" },
+          { "text": "GitHub", "url": "https://github.com/ham7a311" }
+        ]
+      }
+    ],
+    "copyright": "© 2025 EduNet. All rights reserved.",
+    "bottomLinks": {
+      "github": "GitHub",
+      "whatsapp": "WhatsApp"
+    }
+  }
+  
+}
